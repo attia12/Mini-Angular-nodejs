@@ -15,7 +15,11 @@ const StudentSchema=new mongoose.Schema({
    _classId: {
         type : mongoose.Types.ObjectId,
        required: true
-   }
+   },
+    completed: {
+        type: Boolean,
+        default: false
+    }
 
 
 
